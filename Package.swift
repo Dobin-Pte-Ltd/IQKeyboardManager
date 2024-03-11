@@ -15,5 +15,8 @@ let package = Package(
             path: "IQKeyboardManagerSwift",
             resources: [.copy("PrivacyInfo.xcprivacy")]
         )
+    ],
+    platforms: [
+        .iOS(.v13)
     ]
 )
