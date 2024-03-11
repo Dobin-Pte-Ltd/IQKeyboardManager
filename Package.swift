@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "IQKeyboardManagerSwift",
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "IQKeyboardManagerSwift",
                  targets: ["IQKeyboardManagerSwift"])
@@ -15,8 +16,5 @@ let package = Package(
             path: "IQKeyboardManagerSwift",
             resources: [.copy("PrivacyInfo.xcprivacy")]
         )
-    ],
-    platforms: [
-        .iOS(.v13)
     ]
 )
